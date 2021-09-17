@@ -1,5 +1,10 @@
 # Pump-it-Up-Data-Mining-the-Water-Table
 
+## Tested models
+
+* `Random Forest`
+* `XGboost`
+* `Catboost `
 
 ## Loading data
 
@@ -11,7 +16,7 @@
 
 ## Plotted the features
 
-* Plotted the features for identifyy the correlations among the features and get to know about the distribution of the features.
+* Plotted the features for identify the correlations among the features and get to know about the distribution of the features.
 
 ## Nan value imputation
 
@@ -51,17 +56,19 @@ permit                    3793
 * PostgreSQL
 * React.JS
 
-## Entity-Relationship Diagram
+## Removed the 0 values of selected features 
 
-![PopCritic Search](https://raw.githubusercontent.com/theabbie/PopCritic/master/Images/ERD.png)
+* Some features have 0 values which is not compatible for the feature and that hurt the accuracy. So I replaced the 0 value with the mean.
 
-## Try Locally
+## Outlier detection and corrected values 
 
-Go to `web/popcritic` and run,
+*	For the longitude and latitude there is an outlier which hurt the performance seriously. Which is (0,0) coordinate. I replace that latitude and longitude values group by the region code and using the mean of it.
 
-```sh
-npm install
-npm run start
-```
 
-## Team
+## One-hot encoding
+
+* I did one-hot encoding for the categorical values and check the correlation with the output. Then I selected the most corelated features.
+
+## Normalize the data
+
+* 
