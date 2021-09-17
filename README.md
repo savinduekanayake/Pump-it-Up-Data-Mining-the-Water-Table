@@ -17,7 +17,8 @@
 
 * I checked the nan values and founded below counts of nan values for relavent features.
 
-`funder                    4504
+```sh
+funder                    4504
 
 installer                 4532
 
@@ -29,7 +30,8 @@ scheme_management         4846
 
 scheme_name              35231
 
-permit                    3793`
+permit                    3793
+```
 
 
 ![PopCritic Search](https://raw.githubusercontent.com/theabbie/PopCritic/master/Images/review.JPG)
