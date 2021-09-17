@@ -18,11 +18,17 @@
 * I checked the nan values and founded below counts of nan values for relavent features.
 
 funder                    4504
+
 installer                 4532
+
 subvillage                 470
+
 public_meeting            4135
+
 scheme_management         4846
+
 scheme_name              35231
+
 permit                    3793
 
 
