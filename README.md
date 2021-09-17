@@ -55,7 +55,7 @@ permit                    3793
 
 ## Outlier detection and corrected values 
 
-*	For the longitude and latitude there is an outlier which hurt the performance seriously. Which is (0,0) coordinate. I replace that latitude and longitude values group by the region code and using the mean of it.
+*	For the `longitude` and `latitude` there is an outlier which hurt the performance seriously. Which is (0,0) coordinate. I replace that latitude and longitude values group by the `region_code` and using the mean of it.
 
 
 ## One-hot encoding
