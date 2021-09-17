@@ -33,6 +33,13 @@ scheme_name              35231
 permit                    3793
 ```
 
+*	Public_meeting and permit features are simply imputed with the mode.
+
+*	`Funder` and `installer` have ‘0’, ‘-‘and some other irrelevant character except to the nan values. So firstly nan values imputed with mode and the other irrelevant values in those columns are imputed with ‘other’ category
+
+*	`subvillage` and `scheme_management` are grouped by `region_code` and imputed the nan values with mode.
+
+*	`scheme_name` grouped by `region` and imputes the nan values with the mode.
 
 ![PopCritic Search](https://raw.githubusercontent.com/theabbie/PopCritic/master/Images/review.JPG)
 
