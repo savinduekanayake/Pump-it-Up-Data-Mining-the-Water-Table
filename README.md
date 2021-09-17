@@ -69,4 +69,12 @@ permit                    3793
 * I founded out `log normalization` better performance for `population`.
 * I used `min-max normalization` for the `amount_tsh` and `gps_height`
 
+## Evaluation
+
+*	For the evaluation I split the train dataset `train : Val as 90% : 10%`.
+*	Then I evaluated `Random Forest, XGBoost and CatBoost`
+*	In the evaluation `CatBoost model` perform the heights results repeatedly and also `XGBosst model` also gave more closer results but `Random Forest model` gave less results related to other models.
+*	I checked accuracy and plotted the confusion matrix for look more details.
+
+## Testing
 
