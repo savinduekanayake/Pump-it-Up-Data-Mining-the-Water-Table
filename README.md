@@ -1,5 +1,7 @@
 # Pump-it-Up-Data-Mining-the-Water-Table
 
+![Submission score and rank](https://user-images.githubusercontent.com/47809365/133748367-59664ab0-9fac-4b44-b20e-5965fbc41e4d.JPG)
+
 ## Evaluated and tested models
 
 * `Random Forest`
@@ -82,6 +84,5 @@ permit                    3793
 * For the testing I re-train the model for all training data and predicted using the given test data for both` XGboost` and `CatBoost` models. Not use random forest because of low accuracy for evaluation.
 * I got `best accuracy : 0.8209` for this task using the `CatBoost model` for the testing.
 
-![Submission score and rank](https://user-images.githubusercontent.com/47809365/133748367-59664ab0-9fac-4b44-b20e-5965fbc41e4d.JPG)
 
 ![All submissions](https://user-images.githubusercontent.com/47809365/133748390-2129210b-019d-4b1e-819e-8c0ce84e6c7b.JPG)
