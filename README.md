@@ -1,6 +1,6 @@
 # Pump-it-Up-Data-Mining-the-Water-Table
 
-## Tested models
+## Evaluated and tested models
 
 * `Random Forest`
 * `XGboost`
@@ -10,8 +10,8 @@
 
 * Read the given csv files.
 * Combine the labels with train data.
-* Check the duplicates and drop it.
-* I removed the lables and combine train dataset and test dataset.
+* Check the duplicates in training set and drop it.
+* I removed the lables in training set and combine train dataset and test dataset.
 
 
 ## Plotted the features
@@ -46,15 +46,8 @@ permit                    3793
 
 *	`scheme_name` grouped by `region` and imputes the nan values with the mode.
 
-![PopCritic Search](https://raw.githubusercontent.com/theabbie/PopCritic/master/Images/review.JPG)
+<!-- ![PopCritic Search](https://raw.githubusercontent.com/theabbie/PopCritic/master/Images/review.JPG) -->
 
-
-
-## NaN imputation
-
-* Node.JS
-* PostgreSQL
-* React.JS
 
 ## Removed the 0 values of selected features 
 
