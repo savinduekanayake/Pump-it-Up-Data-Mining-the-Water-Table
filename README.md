@@ -79,4 +79,4 @@ permit                    3793
 ## Testing
 
 * For the testing I re-train the model for all training data and predicted using the given test data for both` XGboost` and `CatBoost` models. Not use random forest because of low accuracy for evaluation.
-* I got best accuracy by the `CatBoost model` for the testing
+* I got `best accuracy : 0.8209` for this task using the `CatBoost model` for the testing.
