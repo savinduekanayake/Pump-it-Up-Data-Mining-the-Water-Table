@@ -48,7 +48,6 @@ permit                    3793
 
 *	`scheme_name` grouped by `region` and imputes the nan values with the mode.
 
-<!-- ![PopCritic Search](https://raw.githubusercontent.com/theabbie/PopCritic/master/Images/review.JPG) -->
 
 
 ## Removed the 0 values of selected features 
